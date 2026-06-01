@@ -1,0 +1,20 @@
+# Ignore the data directory entirely
+data/
+
+# Environment and sensitive configuration files
+.env
+*.env
+# .venv/
+venv/
+ENV/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Build directories and cache
+__pycache__/
+*.pyc
+dist/
+build/
+.cache/
